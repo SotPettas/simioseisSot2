@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:backgroundTint="@color/myOrange"
+        android:id="@+id/block"
+        android:layout_marginTop="-20dp"
+        app:cardCornerRadius="15dp"
+        android:elevation="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/heading"
+                android:text="My Notes"
+                android:layout_marginTop="32dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:fontFamily="@font/mabook"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="39sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:fontFamily="@font/uber"
+                android:textStyle="italic"
+                android:text="simple and easy !"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:id="@+id/searchTxt"
+            android:layout_marginTop="105dp"
+            android:background="@color/white"
+
+            />
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:id="@+id/aboutMe"
+            android:src="@drawable/ic_baseline_keyboard_command_key_24"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="300dp"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_add_24"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/addNote"
+        app:rippleColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/myNotesList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/block"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        tools:listitem="@layout/my_note_item" />
+
+
+</RelativeLayout>

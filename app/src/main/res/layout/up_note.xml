@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpNote">
+
+    "
+
+
+    <Button
+        android:id="@+id/openNoteUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="31dp"
+        android:layout_toStartOf="@+id/createUpNoteButton"
+        android:backgroundTint="@color/myBlue"
+        android:text="Open Up Notes" />
+
+    <Button
+        android:id="@+id/createUpNoteButton"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="35dp"
+        android:backgroundTint="@color/myBlue"
+        android:text="Create Up Note"
+        app:cornerRadius="15dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="36dp"
+        android:text="about" />
+
+
+</RelativeLayout>

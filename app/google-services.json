@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "349678300207",
+    "project_id": "com-assigment-simioseisot",
+    "storage_bucket": "com-assigment-simioseisot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349678300207:android:00b4b31fb8fd0a94466ada",
+        "android_client_info": {
+          "package_name": "com.assigment.simioseiSot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD7ESHPO5D0JCgXzkhaBSM2d1tW0BxYKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

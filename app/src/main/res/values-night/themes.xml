@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.simioseiSot" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/myOrange</item>
+        <item name="colorPrimaryVariant">@color/myOrange</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/myOrangeSecondary</item>
+        <item name="colorSecondaryVariant">@color/myOrangeSecondary</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="WindowAnimations">
+        <item name="android:activityOpenEnterAnimation">@anim/enter_activity</item>
+        <item name="android:activityOpenExitAnimation">@anim/exit_activity</item>
+        <item name="android:activityCloseEnterAnimation">@anim/enter_activity</item>
+        <item name="android:activityCloseExitAnimation">@anim/exit_activity</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.simioseiSot" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+</resources>
